@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NexaCart - Online Shopping</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            Nexa<span>Cart</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart 🛒</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Shop Smarter with NexaCart</h1>
+
+            <p>
+                Discover amazing products at great prices.
+                Fast, simple and secure online shopping.
+            </p>
+
+            <a href="products.html" class="shop-btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories">
+
+        <h2>Shop by Category</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <div class="category-icon">💻</div>
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">👕</div>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">⌚</div>
+                <h3>Accessories</h3>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>Home</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="featured">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-container">
+
+            <div class="product-card">
+
+                <div class="product-image">💻</div>
+
+                <h3>Premium Laptop</h3>
+
+                <p class="price">₹59,999</p>
+
+                <button onclick="addToCart('Premium Laptop', 59999)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">🎧</div>
+
+                <h3>Wireless Headphones</h3>
+
+                <p class="price">₹2,499</p>
+
+                <button onclick="addToCart('Wireless Headphones', 2499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">⌚</div>
+
+                <h3>Smart Watch</h3>
+
+                <p class="price">₹3,999</p>
+
+                <button onclick="addToCart('Smart Watch', 3999)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>NexaCart</h3>
+
+        <p>
+            Your trusted online shopping destination.
+        </p>
+
+        <p>
+            © 2026 NexaCart. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
