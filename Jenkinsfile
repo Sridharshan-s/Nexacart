@@ -23,7 +23,7 @@ pipeline {
 
         stage('Deploy Container') {
             steps {
-                sh 'docker run -d --name nexacart -p 80:80 nexacart'
+                sh 'docker run -d --name nexacart -p 8081:80 nexacart'
             }
         }
     }
